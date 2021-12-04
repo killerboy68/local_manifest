@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+        <remote name="ded"
+        fetch="https://github.com/atharv2951-roms" />
+
+        <!-- Sync trees -->
+        <project path="device/nokia/PLE" name="device_nokia_PLE" remote="ded" revision="lineage" />
+        <project path="device/nokia/sdm430-common" name="device_nokia_sdm430-common" remote="ded" revision="lineage" />
+        <project path="vendor/nokia/sdm430-common" name="vendor-nokia-sdm430-common" remote="ded" revision="lineage" />
+
+</manifest>
